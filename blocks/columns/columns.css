@@ -19,6 +19,11 @@
   display: block;
 }
 
+.columns-container p{
+  display: flex;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 900px) {
   .columns > div {
     align-items: center;
