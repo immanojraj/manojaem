@@ -177,9 +177,13 @@ header nav .nav-sections {
 }
 
 header nav[aria-expanded="true"] .nav-sections {
-  display: block;
+  display: flex;
   visibility: visible;
   align-self: start;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex: 1 1 0%;
 }
 
 header nav .nav-sections ul  {
