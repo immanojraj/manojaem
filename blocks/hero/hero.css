@@ -12,13 +12,15 @@ main .hero {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  padding-top: 15vh;
+  text-align: center;
 }
 
 main .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: #393c41;
 }
 
 main .hero picture {
@@ -30,6 +32,16 @@ main .hero picture {
   right: 0;
   object-fit: cover;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 main .hero img {
