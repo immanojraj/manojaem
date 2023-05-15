@@ -171,7 +171,7 @@ a.button:any-link, button {
   cursor: pointer;
   margin: 8px;
 }
-.button-container {
+.default-content-wrapper a{
   display: flex;
   margin-bottom: 30px;
 }
