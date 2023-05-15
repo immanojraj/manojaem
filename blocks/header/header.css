@@ -30,7 +30,7 @@ header nav[aria-expanded="true"] {
   min-height: 100vh;
 }
 
-header .nav-sections {
+.nav-sections {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
