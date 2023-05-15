@@ -30,6 +30,21 @@ header nav[aria-expanded="true"] {
   min-height: 100vh;
 }
 
+header .nav-sections {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.nav-sections li {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
 @media (min-width: 600px) {
   header nav {
     padding: 0 2rem;
@@ -186,6 +201,8 @@ header nav .nav-sections ul > li > ul > li {
   font-weight: 500;
 }
 
+
+
 @media (min-width: 900px) {
   header nav .nav-sections {
     display: block;
@@ -263,6 +280,8 @@ header nav .nav-sections ul > li > ul > li {
     border-right: 8px solid transparent;
     border-bottom: 8px solid var(--highlight-background-color);
   }
+  
+  
 
   header nav .nav-sections > ul > li > ul > li {
     padding: 8px 0;
