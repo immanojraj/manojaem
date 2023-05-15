@@ -146,6 +146,6 @@ export function decorateBlock(block) {
  */
 export function decorateBlocks(main) {
   main
-    .querySelectorAll('div.section > div > div')
+    .querySelectorAll('div.section > div > div > div > div')
     .forEach(decorateBlock);
 }
