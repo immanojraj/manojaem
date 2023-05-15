@@ -173,8 +173,8 @@ a.button:any-link, button {
 }
 .default-content-wrapper p{
   display: flex;
-  margin-top: 12px;
-  margin-left: 100px;
+  margin-top: 50px;
+  margin-left: 300px;
 }
 a.button:hover, a.button:focus, button:hover, button:focus  {
   background-color: var(--link-hover-color);
