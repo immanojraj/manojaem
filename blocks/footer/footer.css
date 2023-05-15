@@ -11,4 +11,6 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  display: flex;
+  margin-bottom: 30px;
 }
